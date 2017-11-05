@@ -1,0 +1,28 @@
+﻿/* Main CSS for Anagram */
+/* 05.11.2017 Per Olav Mariussen */
+
+body, table {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1em;
+}
+header {
+	margin-bottom: 20px;
+}
+header > h1 {
+	margin-bottom: 0px;
+}
+footer {
+	margin-top: 1em;
+	text-align: center;
+	font-size: 80%;
+}
+footer a {
+	color: gray;
+	text-decoration: none;
+}
+.padding-right {
+	padding-right: 30px;
+}
+.margin-bottom {
+	margin-bottom: 10px;
+}
