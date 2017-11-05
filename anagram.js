@@ -52,7 +52,7 @@ $(document).ready(function(){
 			// Indre løkke: Løp igjennom resten av listen
 			for ( j=i+1; j<anagrammer.length; j++ ) {	
 				if ( re.test(anagrammer[j]) ) {
-					res += anagrammer[j] + " ";		//Match: legg til aktuelt ord til i resultatet
+					res += anagrammer[j] + " ";		//Match: legg aktuelt ord til i resultatet
 				}
 			}
 			// Sjekk om vi fikk resultat(er) for dette ordet (anagrammer[i])
